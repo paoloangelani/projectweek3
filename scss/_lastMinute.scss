@@ -1,0 +1,10 @@
+#francy {
+    display: flex;
+    flex-direction: row;
+    margin-left: 3rem;
+    margin-right: 3rem;
+
+    .card-img-top {
+        border-radius: 5px;
+    }
+}

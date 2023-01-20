@@ -1,0 +1,25 @@
+#guideContenitore {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#destinazioni {
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.imgContainer {
+    margin-bottom: 2rem;
+}
+
+.buttonCenter {
+    display: flex;
+    justify-content: center;
+    background-color: $secondary-color;
+    color: white;
+    border-radius: 10px;
+
+}

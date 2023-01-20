@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./scss/main.css">
+</head>
+
+<body>
+    <header>
+
+        <!--NAVBAR-->
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="#">ChickenGuideExperience</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">GuideExperience</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Last minute
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Sudan</a></li>
+                                <li><a class="dropdown-item" href="#">Socotra</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Altri voli</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Staff</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Recensioni</a>
+                        </li>
+                        <li class="pippo">
+                            <div class="social">
+                                <a href="#"><i class="fab fa-facebook "></i></a>
+                                <a href="#"><i class="fab fa-instagram "></i></a>
+                                <a href="#"><i class="fab fa-twitter "></i></a>
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="form" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Hook Your Dream"
+                            aria-label="Search">
+                        <button class="btn btn-outline" type="submit" id="head">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!--CAROUSEL IMAGE-->
+
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/carosel/A7405712.jpg" alt="sudan flats">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Sudan Flats</h5>
+                        <p>Due settimane di Pesca a mosca nei Flats Sudanesi</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/carosel/Wild+Sea+Expedition+Sudan+Nubian+Reef.jpg" alt="socotra offshore">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Socotra Offshore</h5>
+                        <p>Due settimane di Pesca offshore tra le isole di Socotra</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/carosel/fly+selct+(47).jpg" alt="jeddah inshore">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Jeddah</h5>
+                        <p>Due settimani di Pesca inshore dai Flats</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!--PRENOTASECTION-->
+
+        <div class="prenotaSection">
+            <div class="row">
+                <div class="col">
+                    <div class="card bg-body-tertiary border-0">
+                        <div class="card-body">
+                            <h1 class="card-prenota">
+                                Vuoi Prenotare il tuo sogno?
+                            </h1>
+                            <p class="scopri"> Scopri le destinazioni al momento</p>
+                            <button type="button" class="btn btn-lg px-5" id="head">Prenota
+                                Ora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Guide Experience-->
+
+        <div class="guideExperience">
+            <h2>GuideExperience</h2>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="guideContenitore">
+
+            <div class="card" id="destinazioni">
+
+                <div class="card-body">
+                    <div class="imgContainer">
+                        <img src="./img/location/socotra.jpg" class="card-img-top" alt="David Fernandez">
+                    </div>
+                    <h5 class="card-title">Socotra</h5>
+                    <p class="card-text">Socotra fa parte di un arcipelago lungo 250 chilometri al quale dà il nome. È
+                        formato da altre tre isole minori e due scogli rocciosi, separati fra loro da mari relativamente
+                        poco profondi. Socotra è una delle terre più isolate al mondo, e la sua straordinaria
+                        biodiversità la rende di importanza universale.</p>
+                    <div class="buttonCenter"><a href="#" class="btn">Chose
+                            Socotra</a></div>
+
+                </div>
+            </div>
+
+            <div class="card" id="destinazioni">
+
+                <div class="card-body">
+                    <div class="imgContainer">
+                        <img src="./img/location/sudan.jpg" class="card-img-top" alt="David Fernandez">
+                    </div>
+                    <h5 class="card-title">Sudan</h5>
+                    <p class="card-text">Republic of the Sudan), è uno Stato arabo-africano, che confina con l'Egitto a
+                        nord, col mar Rosso a nord-est, con l'Eritrea e l'Etiopia ad est, con il Sudan del Sud a sud,
+                        con la Repubblica Centrafricana a sud-ovest, con il Ciad a ovest e con la Libia a nord-ovest.
+                    </p>
+                    <div class="buttonCenter"><a href="#" class="btn">Chose
+                            Sudan</a></div>
+                </div>
+            </div>
+
+            <div class="card" id="destinazioni">
+
+                <div class="card-body">
+                    <div class="imgContainer">
+                        <img src="./img/location/jeddah.jpg" class="card-img-top" alt="David Fernandez">
+                    </div>
+                    <h5 class="card-title">Jeddah</h5>
+                    <p class="card-text">Tra le città di maggiore spicco, situata sulle rive del Mar Rosso, Gedda è un
+                        sogno orientale in cui scoprire gli splendori dell'Arabia Saudita. Con immense distese di
+                        deserto e coste spettacolari, la città saudita è un luogo inimitabile, che potrebbe trovarsi
+                        sola nella penisola arabica.</p>
+                    <div class="buttonCenter"><a href="#" class="btn">Chose
+                            Jeddah</a></div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--CARD TRIP-->
+
+        <div id="tripHead">
+            <h2>Staff</h2>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4" id="guideContenitore">
+
+            <div class="card" id="cardGuide">
+
+                <div class="card-body">
+                    <img src="./img/staff/Nicola-Vitali.jpg" class="card-img-top" alt="Nicola Vitali">
+                    <h5 class="card-title">Nicola Vitali</h5>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, saepe
+                        iusto itaque doloremque optio eius minus quibusdam maxime possimus, distinctio recusandae
+                        necessitatibus fugiat aperiam, quam tempora consectetur numquam porro ullam.</p>
+                    <div class="buttonCenter"><a href="#" class="btn">Chose
+                            Nicola</a></div>
+
+                </div>
+            </div>
+
+            <div class="card" id="cardGuide">
+
+                <div class="card-body"><img src="./img/staff/DavidFernandezMiguelez.jpg" class="card-img-top"
+                        alt="David Fernandez">
+                    <h5 class="card-title">David Fernandez Miguelez</h5>
+                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero expedita
+                        dolorem temporibus odit quibusdam praesentium sequi tempora impedit amet laboriosam natus
+                        nobis delectus incidunt, deserunt distinctio quisquam. Explicabo, aperiam atque.</p>
+                    <div class="buttonCenter"><a href="#" class="btn">Chose
+                            David</a></div>
+                </div>
+            </div>
+
+            <div class="card" id="cardGuide">
+
+                <div class="card-body"><img src="./img/staff/Federico+Castignoli (1).jpg" class="card-img-top"
+                        alt="Federico Castignoli">
+                    <h5 class="card-title">Federico Castignoli</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, cum
+                        illo? Vel ipsum obcaecati nobis veritatis recusandae, pariatur sed explicabo deserunt porro,
+                        deleniti, tempore similique quaerat modi suscipit quisquam molestiae!</p>
+                    <div class="buttonCenter"><a href="#" class="btn">Chose
+                            Federico</a></div>
+                </div>
+            </div>
+
+            <div class="card" id="cardGuide">
+
+                <div class="card-body"><img src="./img/staff/indefinito.jpg" class="card-img-top" alt="Mister X">
+                    <h5 class="card-title">Mister X</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et debitis dolore,
+                        alias quisquam animi quae enim ducimus fugit, aperiam possimus sapiente laborum nostrum
+                        eveniet quas est, qui incidunt voluptate! Unde.</p>
+                    <div class="buttonCenter"><a href="#" class="btn">Chose
+                            Mister
+                            X</a></div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!--OFFERTA DEL GIORNO-->
+
+        <div id="tripHead">
+            <h2>Offerta del giorno</h2>
+        </div>
+
+        <div class="card" id="socotraOffert">
+            <div class="row g-0">
+                <div class="col-md-8">
+                    <img src="img/location/socotra.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card-body">
+                        <h5 class="card-title">Socotra</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit est
+                            cum officiis eveniet ut accusantium cumque quis ipsa at quasi, similique atque fugiat
+                            dignissimos, dolores quia, hic nemo. Aperiam, nihil?</p>
+                        <p class="card-text"><small class="text-muted">Last updated 15 mins ago</small></p>
+                        <div class="buttonCenter">
+                            <a href="#" class="btn">
+                                Chose Socotra Island
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--LAST MINUTE-->
+
+        <div id="tripHead">
+            <h2>Last minute</h2>
+        </div>
+
+        <div class="card" id="francy">
+
+            <div class="card-body">
+                <a href=""><img src="./img/staff/indefinito.jpg" class="card-img-top" alt="Mister X"></a>
+            </div>
+            <div class="card-body">
+                <a href=""><img src="./img/staff/indefinito.jpg" class="card-img-top" alt="Mister X"></a>
+            </div>
+            <div class="card-body">
+                <a href=""><img src="./img/staff/indefinito.jpg" class="card-img-top" alt="Mister X"></a>
+            </div>
+            <div class="card-body">
+                <a href=""><img src="./img/staff/indefinito.jpg" class="card-img-top" alt="Mister X"></a>
+            </div>
+            <div class="card-body">
+                <a href=""><img src="./img/staff/indefinito.jpg" class="card-img-top" alt="Mister X"></a>
+            </div>
+            <div class="card-body">
+                <a href=""><img src="./img/staff/indefinito.jpg" class="card-img-top" alt="Mister X"></a>
+            </div>
+
+        </div>
+
+        <!--Dicono di noi-->
+
+        <div class="d-flex justify-content-center mt-5">
+            <h2 class="fw-bold">Dicono di noi</h2>
+        </div>
+
+        <div class="row row-cols-2 m-4 d-flex justify-content-center">
+            <div class="col-1">
+                <img src="./img/logo/pngaaa.com-6256702.png" style="width: 50px;" alt="">
+            </div>
+            <div class="col-6 m-b-5">
+                <h4>Username</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum quasi architecto doloribus et, minima
+                    accusamus nobis harum tenetur similique earum cumque odit mollitia, voluptate odio eaque adipisci
+                    eius voluptas quam!</p>
+            </div>
+        </div>
+
+        <div class="row row-cols-2 m-4 d-flex justify-content-center">
+            <div class="col-1">
+                <img src="./img/logo/pngaaa.com-6256702.png" style="width: 50px;" alt="">
+            </div>
+            <div class="col-6 m-b-5">
+                <h4>Username</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum quasi architecto doloribus et, minima
+                    accusamus nobis harum tenetur similique earum cumque odit mollitia, voluptate odio eaque adipisci
+                    eius voluptas quam!</p>
+            </div>
+        </div>
+
+        <div class="row row-cols-2 m-4 d-flex justify-content-center">
+            <div class="col-1">
+                <img src="./img/logo/pngaaa.com-6256702.png" style="width: 50px;" alt="">
+            </div>
+            <div class="col-6 m-b-5">
+                <h4>Username</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum quasi architecto doloribus et, minima
+                    accusamus nobis harum tenetur similique earum cumque odit mollitia, voluptate odio eaque adipisci
+                    eius voluptas quam!</p>
+            </div>
+        </div>
+
+    </main>
+
+    <!--FOOTER-->
+
+    <div class="row bg-body-tertiary">
+        <div class="col-4">
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

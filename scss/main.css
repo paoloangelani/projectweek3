@@ -1,0 +1,134 @@
+main {
+  background-color: antiqueWhite;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.pippo {
+  width: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.pippo i {
+  padding: 0.25em;
+}
+
+.container {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-nav {
+  margin-bottom: 1.5rem;
+}
+
+.form {
+  display: flex;
+}
+
+.btn {
+  border: 2px solid #0D6EFD;
+}
+
+.carousel-item img {
+  display: block;
+  width: 100%;
+}
+
+.carousel-caption {
+  display: none;
+}
+
+.prenotaSection {
+  padding-top: 3rem;
+  margin: 3rem;
+}
+
+.scopri {
+  color: #6C757D;
+  font-size: 1.3em;
+  font-size: italic;
+  padding-bottom: 3rem;
+}
+
+#head {
+  color: black;
+}
+
+#guideContenitore {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#destinazioni {
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.imgContainer {
+  margin-bottom: 2rem;
+}
+
+.buttonCenter {
+  display: flex;
+  justify-content: center;
+  background-color: #0D6EFD;
+  color: white;
+  border-radius: 10px;
+}
+
+#tripHead {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+#cardGuide {
+  width: 20rem;
+}
+
+.guideExperience {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.card-body {
+  padding: 1rem;
+}
+.card-body .btn {
+  color: white;
+}
+
+.card-prenota {
+  padding-bottom: 1rem;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+}
+
+#socotraOffert {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  padding: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+#francy {
+  display: flex;
+  flex-direction: row;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+#francy .card-img-top {
+  border-radius: 5px;
+}/*# sourceMappingURL=main.css.map */

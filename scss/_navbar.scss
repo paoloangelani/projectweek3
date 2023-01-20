@@ -1,0 +1,31 @@
+//main: main.scss
+
+.pippo {
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    i {
+        padding: 0.25em;
+    }
+}
+
+.container {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-nav {
+    margin-bottom: 1.5rem;
+}
+
+.form {
+    display: flex;
+}
+
+.btn {
+    border: 2px solid #0D6EFD;
+}

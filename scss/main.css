@@ -126,11 +126,19 @@ h2 {
 #francy {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   margin-left: 3rem;
   margin-right: 3rem;
 }
 #francy .card-img-top {
   border-radius: 5px;
+  width: 7.3rem;
+  height: 5.6rem;
+}
+
+#iconTestimonianze {
+  margin-top: 3rem;
+  margin-right: 2rem;
 }
 
 .footer {
